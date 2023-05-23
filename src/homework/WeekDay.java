@@ -36,7 +36,7 @@ public class WeekDay {
 	default: 
 		System.out.println("Saptamana are doar 7 zile te rog sa introduci un numar valid");
 }
-	
+	//test
 	scanner.close();
 }
 }
