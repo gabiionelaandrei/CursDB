@@ -12,11 +12,11 @@ public class DoWhile {
 		int counter=0;
 		while(counter<3) {
 			counter ++;
-			System.out.println("User: ");
+			System.out.print("User: ");
 			String user = scanner.nextLine();;
 
 
-			System.out.println("Password: ");
+			System.out.print("Password: ");
 			int parola = scanner.nextInt();
 	
 			
