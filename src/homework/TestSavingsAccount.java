@@ -22,10 +22,13 @@ public class TestSavingsAccount {
 
 			
 			System.out.println(" The ampunt you entered is greater than the available balance:" + account1.balance);
-			System.out.println(" Thank you for using our ATM");
+			
 			e.printStackTrace();
 
-		};
+		}
+		finally{
+			System.out.println(" Thank you for using our ATM");
+		}
 		
 		scanner.close();
 	}	
