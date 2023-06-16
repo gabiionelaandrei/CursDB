@@ -20,6 +20,9 @@ public class Account {
 		if(amount > balance) {
 			throw new InsuficentFundsException( "Insufiecient funds!Your " + amount + " is grater than " + balance);
 		}
+		else if (amount<=0){
+			System.out.println("You cannot withdraw a negative amount or equal to 0!");
+		}
 		
 		balance = balance - amount;
 		
