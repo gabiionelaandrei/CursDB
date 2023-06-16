@@ -65,7 +65,6 @@ public class BankApp {
 				
 			case 3:	
 				cont.checkBalance();
-				raspuns = scan.next().toString();
 				break;
 			default:
 				atm.operatiuni(action);

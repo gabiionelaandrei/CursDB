@@ -18,7 +18,7 @@ public class Catalog {
 	public void adaugaElev(String nume, int nota) {
 		if (note.containsKey(nume)) {
 			int notaDecomparat = note.get(nume);
-			if (nota < notaDecomparat) {
+			if (nota <= notaDecomparat) {
 				System.out.println("Nu ai nevoie de alta nota");
 			} else {
 
