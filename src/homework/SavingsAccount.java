@@ -16,12 +16,15 @@ public class SavingsAccount extends Account{
 		if(suma > balance) {
 			throw new InsuficientFundsException ();
 			
-		}else {
+		}
+		else if (suma < 0) {
+			System.out.println("Your amount is invalid");
+		}
+		else {
 			System.out.println("Please pick your money!");
 			
 			balance = balance - suma;
 			System.out.println("Your new balance is: " + balance);
-			System.out.println("Thank you for using our ATM");
 		}
 	}
 	
