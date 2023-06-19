@@ -1,6 +1,6 @@
 package curs7;
 
-import homework.Shape;
+import curs7.Shape;
 
 public class Patrat extends Shape{
 
